@@ -386,6 +386,7 @@ button.second-type:hover {
   align-items: center;
 }
 .blocks {
+  margin: 0 auto;
   border: 2px solid #c5cce6;
   border-radius: 5px;
   padding: 30px;
@@ -426,6 +427,7 @@ button.second-type:hover {
 /* GALLERY SECTION  */
 .featured-sec .header {
   margin: 50px auto;
+  height: auto;
 }
 .gallery {
   display: flex;
