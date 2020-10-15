@@ -370,7 +370,7 @@ button.second-type:hover {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  height: 20vh;
+  height: auto;
   width: 60%;
   margin: 10px auto;
 }
@@ -421,6 +421,7 @@ button.second-type:hover {
   .expertise-sec .header {
     margin: 30px auto;
     width: 80%;
+    height: auto;
   }
 }
 
