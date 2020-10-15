@@ -502,7 +502,7 @@ button.second-type:hover {
   justify-content: center;
   align-items: center;
   height: 10vh;
-  width: 70%;
+  width: 100%;
 }
 .resume-sec .education .heading i {
   margin-right: 15px;
@@ -535,7 +535,7 @@ button.second-type:hover {
     width: 100%;
   }
   .resume-sec .education {
-    width: 80%;
+    width: 90%;
   }
 }
 /* HELLO SECTION  */
