@@ -266,10 +266,9 @@ button.second-type:hover {
 /* SKILLS SECTION  */
 .skill-sec {
   height: 40vh;
-  width: 80%;
   margin: 0 auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 .vertical-text {
@@ -307,16 +306,21 @@ button.second-type:hover {
   width: 100%;
   margin-bottom: 20px;
 }
+.lower {
+  display: flex;
+  width: 100%;
+}
 .skill-grid {
   display: grid;
   grid-template-columns: repeat(2, 450px);
   grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 50px;
+  grid-column-gap: 5%;
 }
 @media screen and (max-width: 1000px) {
   .skill-sec {
     height: auto;
     flex-direction: column;
+    /* width: 100%; */
   }
   .vertical-text h1 {
     writing-mode: horizontal-tb;
@@ -324,8 +328,10 @@ button.second-type:hover {
   }
   .skill-grid {
     grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    justify-content: center;
   }
 }
+
 .lower .bg {
   border-radius: 500px;
   overflow: hidden;
