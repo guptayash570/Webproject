@@ -420,7 +420,7 @@ button.second-type:hover {
   }
   .expertise-sec .header {
     margin: 30px auto;
-    width: 80%;
+    width: 90%;
     height: auto;
   }
 }
@@ -460,6 +460,9 @@ button.second-type:hover {
   .column {
     flex: 50%;
     max-width: 50%;
+  }
+  .featured-sec .header {
+    width: 90%;
   }
 }
 @media screen and (max-width: 600px) {
