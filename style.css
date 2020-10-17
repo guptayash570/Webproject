@@ -436,12 +436,16 @@ button.second-type:hover {
   margin: 50px auto;
   height: auto;
 }
+.portfolio-featured {
+  width: 80%;
+  margin: 50px auto;
+}
 .gallery {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
 .column {
   flex: 25%;
@@ -458,7 +462,7 @@ button.second-type:hover {
   transition: all 0.5s ease;
 }
 .column img:hover {
-  transform: scale(1.5);
+  transform: scale(1.3);
   cursor: pointer;
   border: 2px solid #21242b;
 }
@@ -564,6 +568,9 @@ button.second-type:hover {
 .form-sec {
   position: relative;
 }
+.contact-form-sec {
+  margin-top: 200px;
+}
 .form-sec .text {
   height: 40vh;
   font-size: 18px;
@@ -620,6 +627,9 @@ button.second-type:hover {
   z-index: 2;
   background: white;
 }
+.contact-form {
+  bottom: 0;
+}
 .form form {
   display: flex;
   flex-direction: column;
@@ -648,5 +658,14 @@ button.second-type:hover {
     margin: 0 auto;
     height: auto;
     margin-bottom: 30px;
+  }
+  .contact-form-sec {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-form {
+    display: block;
+    width: 100%;
+    position: static;
   }
 }
