@@ -445,7 +445,6 @@ button.second-type:hover {
   flex-wrap: wrap;
   padding: 0 4px;
   justify-content: center;
-  /* align-items: center; */
 }
 .column {
   flex: 25%;
@@ -668,4 +667,23 @@ button.second-type:hover {
     width: 100%;
     position: static;
   }
+}
+
+/* PORTFOLIO PAGE CSS  */
+.embed {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 30px auto;
+  width: 100%;
+}
+.embed iframe,
+h2,
+p {
+  margin: 0 auto;
+}
+.embed iframe {
+  border: 4px solid #dbe1f1;
+  border-radius: 10px;
+  overflow: hidden;
 }
