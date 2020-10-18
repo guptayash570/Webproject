@@ -515,6 +515,8 @@ button.second-type:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
+  text-align: center;
   background: #edf1fd;
   border-radius: 5px;
   height: 20vh;
@@ -536,6 +538,8 @@ button.second-type:hover {
   }
   .resume-sec .category {
     width: 100%;
+    height: auto;
+    overflow: hidden;
   }
   .resume-sec .education {
     width: 90%;
